@@ -15,7 +15,7 @@ module.exports = ({ totalUsers = DEFAULT_TOTAL_USERS, totalLogs = DEFAULT_TOTAL_
         [...Array(totalLogs)].map(() => {
           return Log.create({
             place_id: chance.string(),
-            name: chance.pickone(['Baskin Organics', 'Crazy Ice', 'Sprinkles', 'Berry Berry', 'Banana Split']),
+            name: chance.pickone(['Dos Loco Tacos', 'Taco Mamma', 'Mighty Taco', 'Taco Treasure', 'Tiny Taco']),
             user: chance.pickone(users)._id,
             rating: { 
               taco: chance.integer({ min: 1, max: 5 }),
