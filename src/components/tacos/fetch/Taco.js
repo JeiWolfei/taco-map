@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Taco({ taco }) {
-  const { name, rating, price, vibes }
+  const { name, rating, price, vibes } = taco;
 
   return (
     <div>
