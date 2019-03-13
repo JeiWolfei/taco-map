@@ -1,10 +1,9 @@
 {
-  "name": "markdownEditor",
+  "name": "taco-map",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "pretest": "eslint .",
     "test": "jest --verbose",
     "test:watch": "npm run test -- --watch",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map",
@@ -20,6 +19,7 @@
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-redux": "^6.0.1",
+    "react-test-renderer": "^16.8.4",
     "redux": "^4.0.1"
   },
   "devDependencies": {
